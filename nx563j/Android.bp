@@ -26,16 +26,6 @@ dex_import {
 }
 
 android_app_import {
-	name: "QtiTelephonyService",
-	owner: "nubia",
-	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "QTIDiagServices",
 	owner: "nubia",
 	apk: "proprietary/app/QTIDiagServices/QTIDiagServices.apk",
