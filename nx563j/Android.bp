@@ -25,3 +25,53 @@ dex_import {
 	jars: ["proprietary/framework/ifaa_fingerprint.jar"],
 }
 
+android_app_import {
+	name: "QtiTelephonyService",
+	owner: "nubia",
+	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "QTIDiagServices",
+	owner: "nubia",
+	apk: "proprietary/app/QTIDiagServices/QTIDiagServices.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "QtiSystemService",
+	owner: "nubia",
+	apk: "proprietary/app/QtiSystemService/QtiSystemService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "remotesimlockservice",
+	owner: "nubia",
+	apk: "proprietary/app/remotesimlockservice/remotesimlockservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "SimSettings",
+	owner: "nubia",
+	apk: "proprietary/app/SimSettings/SimSettings.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
