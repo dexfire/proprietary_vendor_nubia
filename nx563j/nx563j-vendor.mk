@@ -406,11 +406,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp-service.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeclientjni.so \
     vendor/nubia/nx563j/proprietary/vendor/lib64/vendor.nubia.ifaa@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nubia.ifaa@1.0-impl.so \
-    vendor/nubia/nx563j/proprietary/app/QTIDiagServices/QTIDiagServices.apk:$(TARGET_COPY_OUT_SYSTEM)/app/QTIDiagServices/QTIDiagServices.apk \
-    vendor/nubia/nx563j/proprietary/app/QtiSystemService/QtiSystemService.apk:$(TARGET_COPY_OUT_SYSTEM)/app/QtiSystemService/QtiSystemService.apk \
-    vendor/nubia/nx563j/proprietary/app/remotesimlockservice/remotesimlockservice.apk:$(TARGET_COPY_OUT_SYSTEM)/app/remotesimlockservice/remotesimlockservice.apk \
-    vendor/nubia/nx563j/proprietary/app/SimSettings/SimSettings.apk:$(TARGET_COPY_OUT_SYSTEM)/app/SimSettings/SimSettings.apk \
-   
+    
 PRODUCT_PACKAGES += \
     ifaa_fingerprint \
     QTIDiagServices \
